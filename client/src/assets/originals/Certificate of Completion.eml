@@ -1,0 +1,69 @@
+Delivered-To: phillip.howden@gmail.com
+Received: by 2002:a6b:410a:0:0:0:0:0 with SMTP id n10csp4768335ioa;
+        Sun, 12 May 2019 21:04:24 -0700 (PDT)
+X-Google-Smtp-Source: APXvYqxg6qzEYvpOFbXA8bA1ef0WRUgh5ANA20SBSoP2ivG2i2815v0tMQyixxxulS+kYrVWBOR5
+X-Received: by 2002:a24:3242:: with SMTP id j63mr18571600ita.116.1557720264605;
+        Sun, 12 May 2019 21:04:24 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1557720264; cv=none;
+        d=google.com; s=arc-20160816;
+        b=jpM04em3lz7EptJgu4cJKUC6iE2uu2rvO8iP1pD7V5KX3kqZhSSPApn24AGbDnDJVS
+         PmhTjLUoEARjskWgIB5LmEQrGuN+MHqFqubceJJV25nf9iPnP0LihqP7kQTd1Z6+LYOc
+         JOcGEA1HmT4IfhyS+eTOM1Y0FOxSoHSPlvOetW0g+9XUfUWg9BF9r3uh7dOf5/GKx4w0
+         ufEeqUmVC8Cpba5yUmshuWxwcooT8wIBvXqPwu5TqGzWv+bOp/FNpdSrQCjWarxOm6Ge
+         Kka2cq4X/S8Sw+fAjBflfjKEzDM8WUPEsPB8dNxYk8KNaW+K/8n68lp3bZopLbKwmVCS
+         eyJA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:message-id:reply-to:from:mime-version:subject:to;
+        bh=jvnfvm36cqYWhefC6WOP76Hp0lyiiVLxxMNgvgB1eKk=;
+        b=acByP/1ZNyD36hP5lIwuZuYrO7WVQHZw4tgdWYmCH/Uv6OhPXg5uMlReV6+nrk7Wl2
+         lZjHacZQFCbwJnmSCOsjknSOUQvl8kDHUAzH8wMJhaiZp3vf+NqF+wIVQFEzmFM+dADG
+         LUTZO7WvHo50y5Mw4v/yLnPC2TalWU/W6oreAkriIOptZ9xhH8PfWBC9Qw/43wvbDs2W
+         oJkmmYwh+CZ0Wa1ZV+WqklsDb4K3IW/x4rcGu7aCaDQMHIdNW6s4p+E2c+3m1G0PIBRN
+         qaYapw5BvZR4IsiSWLTKMsJ8RSD4vbg3X0o0h/L5Nxvh8EbJAZ2iq0rxjJhgFlqSYZbr
+         seJw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of minlabour@vsd70.korax.net designates 216.201.101.70 as permitted sender) smtp.mailfrom=minlabour@vsd70.korax.net
+Return-Path: <minlabour@vsd70.korax.net>
+Received: from vsd70.korax.net (vsd70.korax.net. [216.201.101.70])
+        by mx.google.com with ESMTPS id p127si1216389ita.44.2019.05.12.21.04.24
+        for <phillip.howden@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 12 May 2019 21:04:24 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of minlabour@vsd70.korax.net designates 216.201.101.70 as permitted sender) client-ip=216.201.101.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of minlabour@vsd70.korax.net designates 216.201.101.70 as permitted sender) smtp.mailfrom=minlabour@vsd70.korax.net
+Received: by vsd70.korax.net (Postfix, from userid 1001)
+	id C538D1701D; Mon, 13 May 2019 00:04:23 -0400 (EDT)
+To: phillip.howden@gmail.com
+Subject: =?utf-8?b?Q2VydGlmaWNhdGUgb2YgQ29tcGxldGlvbg==?=
+MIME-Version: 1.0
+Content-type:text/html;charset=UTF-8
+From: =?utf-8?b?T250YXJpbyBNaW5pc3RyeSBvZiBMYWJvdXI=?= <awarenessfeedback@ontario.ca>
+Reply-To: awarenessfeedback@ontario.ca
+X-Mailer: PHP/5.6.40
+Message-Id: <20190513040423.C538D1701D@vsd70.korax.net>
+Date: Mon, 13 May 2019 00:04:23 -0400 (EDT)
+
+<!DOCTYPE html>
+				<html xml:lang='en' lang='en'>
+				<head>
+				<title>Certificate of Completion</title>
+				</head>
+<body>
+<p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif;'>Please save this email and proof of completion certificate for future reference.</p>
+<p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif;'>The Ministry of  Labour cannot reprint or replace your certificate, nor does the ministry maintain a record of training. If the proof of completion certificate is lost you may be required to take additional training in order to comply with the Occupational Health and Safety Awareness and Training regulation (O. Reg  297/13). </p>
+<p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif;'>For more information about workplace health and safety please visit the <a href='http://www.labour.gov.on.ca/english/hs/index.php'>Ministry of Labour website</a>.</p>
+<table border='3' bordercolor='#586630' cellpadding='1' cellspacing='0' width='1060' id='emailBody'>
+  <tr>
+    <td align='center' valign='top'><h1 style = 'color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 2.5em; margin-top: 50px; margin-bottom:50px'>Certificate of Completion</h1>
+        <p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 1.3em; margin-top: 30px'>This is to confirm that: </p>
+        <p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1.9em; margin-top: 30px'>Phillip Howden</p>
+        <p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 1.3em; margin-top: 30px'> Has successfully completed the Ministry of Labour's training module:</p>
+        <p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1.9em; margin-top: 30px'>Worker Health and Safety Awareness in 4 Steps</p>
+        <p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 1.3em; margin-top: 30px'>Issued on: May 13, 2019</p>
+        <p> <img src = 'http://www.labour.gov.on.ca/scripts/mpdf/arcAndLogoForEmail.jpg' style = 'left: 0px; bottom: 25px' alt = 'Government of Ontario logo' /> </p>
+        <p style = 'color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 1.3em; margin-top: 30px'></p></td>
+  </tr>
+</table>
+</body>			
+</html>
