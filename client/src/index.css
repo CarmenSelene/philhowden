@@ -30,3 +30,8 @@ li a {
 li a:hover {
   color: rgba(82, 179, 235, 0.589);
 }
+
+td {
+  word-wrap: normal;
+  padding: auto;
+}

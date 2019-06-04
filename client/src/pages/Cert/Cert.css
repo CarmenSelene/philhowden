@@ -1,14 +1,12 @@
 .certNav {
-    display: inline-block;
+    display: inline;
   }
 
 ul.cardUl {
-    display: inline-block;
+    display: block;
     margin: auto;
 }
 
 li.cardLi {
-    display: justify;
-    margin: auto;
-    padding: 5px;
+    display: inline-flex;
 }
