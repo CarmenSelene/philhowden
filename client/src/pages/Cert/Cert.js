@@ -59,29 +59,15 @@ export default class Cert extends Component {
             return (
                 <div className="wrapper">
                     <NavCert giveFocus={this.giveFocus} />
-                    <img className="certblock" alt="FSN Training" src={require('../../assets/cards/fsn_training.jpg')} />
+                    <img className="certblock" alt="Self Propelled" src={require('../../assets/cards/self_propelled_training.jpg')} />
+                    <img className="certblock" alt="Self Propelled Back" src={require('../../assets/cards/self_propelled_training_back.jpg')} />
                 </div>
             )
         } else if (this.state.whichCard === "five") {
             return (
                 <div className="wrapper">
                     <NavCert giveFocus={this.giveFocus} />
-                    <img className="certblock" alt="Safety Course" src={require('../../assets/cards/safety_course.jpg')} />
-                </div>
-            )
-        } else if (this.state.whichCard === "six") {
-            return (
-                <div className="wrapper">
-                    <NavCert giveFocus={this.giveFocus} />
                     <img className="certblock" alt="Generator Seminar" src={require('../../assets/cards/generator_seminar.jpg')} />
-                </div>
-            )
-        } else if (this.state.whichCard === "seven") {
-            return (
-                <div className="wrapper">
-                    <NavCert giveFocus={this.giveFocus} />
-                    <img className="certblock" alt="Self Propelled" src={require('../../assets/cards/self_propelled_training.jpg')} />
-                    <img className="certblock" alt="Self Propelled Back" src={require('../../assets/cards/self_propelled_training_back.jpg')} />
                 </div>
             )
         } else {

@@ -42,7 +42,7 @@
 }
 
 .resumeTable {
-  display: inline-block;
+  display: inline;
   margin: 0px;
   padding: 0px;
 }

@@ -5,13 +5,11 @@ function NavCert(props) {
     return (
         <span className="certNav">
             <ul className="cardUl">
-                <li className="cardLi"><button onClick={() => { props.giveFocus('one'); }}>One</button></li>
-                <li className="cardLi"><button onClick={() => { props.giveFocus('two'); }}>Two</button></li>
-                <li className="cardLi"><button onClick={() => { props.giveFocus('three'); }}>Three</button></li>
-                <li className="cardLi"><button onClick={() => { props.giveFocus('four'); }}>Four</button></li>
-                <li className="cardLi"><button onClick={() => { props.giveFocus('five'); }}>Five</button></li>
-                <li className="cardLi"><button onClick={() => { props.giveFocus('six'); }}>Six</button></li>
-                <li className="cardLi"><button onClick={() => { props.giveFocus('seven'); }}>Seven</button></li>
+                <li className="cardLi"><button onClick={() => { props.giveFocus('one'); }}>Health & Safety</button></li>
+                <li className="cardLi"><button onClick={() => { props.giveFocus('two'); }}>Self-Propelled</button></li>
+                <li className="cardLi"><button onClick={() => { props.giveFocus('three'); }}>Working at Heights</button></li>
+                <li className="cardLi"><button onClick={() => { props.giveFocus('four'); }}>Elevated Platforms</button></li>
+                <li className="cardLi"><button onClick={() => { props.giveFocus('five'); }}>Generators</button></li>
             </ul>
         </span>
     );
