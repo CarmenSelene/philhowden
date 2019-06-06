@@ -1,12 +1,103 @@
 .certNav {
-    display: inline;
+    width: 100%;
+    margin-top: -15px;
+    margin-bottom: 35px;
+    padding: 0px;
   }
 
 ul.cardUl {
-    display: block;
-    margin: auto;
+    display: inline-flex;
+    padding: 0px;
 }
 
 li.cardLi {
     display: inline-flex;
+    border: 3px;
+    border-color: rgba(24, 21, 21, 0.342);
+    border-style: inset;
+    background-color: rgb(224, 194, 194);
+    cursor:pointer;
+    border:none;
+    background:#0CF;
+    color:#FFF;
+    border-radius: 5px; 
+    margin: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+strong.certNavButton {
+  border: none;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  word-wrap: none;
+}
+
+li.cardLi:hover {
+  background-color: rgb(147, 147, 173);
+}
+
+.certPage {
+  width: 100%;
+  margin: 0px;
+  padding: 5px;
+  align-content: center;
+  border-radius: 25px;
+}
+
+.certPanel {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 15px;
+  align-content: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .certNav {
+    width: 100%;
+  }
+
+ul.cardUl {
+    display: flex;
+}
+
+li.cardLi {
+    display: flex;
+    border: 3px;
+    border-color: rgba(24, 21, 21, 0.342);
+    border-style: inset;
+    background-color: rgb(224, 194, 194);
+    cursor:pointer;
+    border:none;
+    background:#0CF;
+    color:#FFF;
+    border-radius: 5px; 
+}
+
+strong.certNavButton {
+    border: none;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .certPage {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+  }
+  
+  .certPanel {
+    width: 90%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 35px;
+    align-content: middle;
+  }
 }

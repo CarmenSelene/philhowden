@@ -34,40 +34,40 @@ export default class Cert extends Component {
     renderWhich = () => {
         if (this.state.whichCard === "one") {
             return (
-                <div className="wrapper">
+                <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
-                    <img className="certblock" alt="Ministry Certification" src={require('../../assets/cards/ministrycert.png')} />
+                    <img className="certPanel" alt="Ministry Certification" src={require('../../assets/cards/ministrycert.png')} />
                 </div>
             )
         } else if (this.state.whichCard === "two") {
             return (
-                <div className="wrapper">
+                <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
-                    <img className="certblock" alt="Crane Training" src={require('../../assets/cards/crane_training.jpg')} />
-                    <img className="certblock" alt="Crane Training Back" src={require('../../assets/cards/crane_training_back.jpg')} />
+                    <img className="certPanel" alt="Crane Training" src={require('../../assets/cards/crane_training.jpg')} />
+                    <img className="certPanel" alt="Crane Training Back" src={require('../../assets/cards/crane_training_back.jpg')} />
                 </div>
             )
         } else if (this.state.whichCard === "three") {
             return (
-                <div className="wrapper">
+                <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
-                    <img className="certblock" alt="Fall Protection" src={require('../../assets/cards/fall_protection.jpg')} />
-                    <img className="certblock" alt="Fall Protection Back" src={require('../../assets/cards/fall_protection_back.jpg')} />
+                    <img className="certPanel" alt="Fall Protection" src={require('../../assets/cards/fall_protection.jpg')} />
+                    <img className="certPanel" alt="Fall Protection Back" src={require('../../assets/cards/fall_protection_back.jpg')} />
                 </div>
             )
         } else if (this.state.whichCard === "four") {
             return (
-                <div className="wrapper">
+                <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
-                    <img className="certblock" alt="Self Propelled" src={require('../../assets/cards/self_propelled_training.jpg')} />
-                    <img className="certblock" alt="Self Propelled Back" src={require('../../assets/cards/self_propelled_training_back.jpg')} />
+                    <img className="certPanel" alt="Self Propelled" src={require('../../assets/cards/self_propelled_training.jpg')} />
+                    <img className="certPanel" alt="Self Propelled Back" src={require('../../assets/cards/self_propelled_training_back.jpg')} />
                 </div>
             )
         } else if (this.state.whichCard === "five") {
             return (
-                <div className="wrapper">
+                <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
-                    <img className="certblock" alt="Generator Seminar" src={require('../../assets/cards/generator_seminar.jpg')} />
+                    <img className="certPanel" alt="Generator Seminar" src={require('../../assets/cards/generator_seminar.jpg')} />
                 </div>
             )
         } else {

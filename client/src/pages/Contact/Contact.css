@@ -7,8 +7,9 @@
 #contact {
 	background-image: url("../../assets/textures/scribble_light.png");
 	padding:35px;
-    margin:auto;
-	width: 90%;
+	padding-top: 15px;
+    margin: auto;
+	width: 80%;
 }
 
 fieldset {
