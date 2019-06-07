@@ -15,8 +15,8 @@ class App extends Component {
           <div className="App-header">
             <span className="title">Phil Howden</span>
             <span className="subTitle">phillip.howden@gmail.com<br />
-                    647-880-7550<br />
-                    Working out of the Greater Toronto Area</span>
+              647-880-7550<br />
+              Working out of the Greater Toronto Area</span>
           </div>
           {/* Navbar */}
           <Navbar />

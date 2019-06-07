@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+// import axios from "axios";
 import NavCert from "./NavCert";
+import "./Cert.css";
 
 export default class Cert extends Component {
     constructor(props) {
@@ -31,11 +33,16 @@ export default class Cert extends Component {
         }
     }
 
+    // downloadMe = (which) => {
+    //     return axios.get(which);
+    // };
+
     renderWhich = () => {
         if (this.state.whichCard === "one") {
             return (
                 <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
+                    {/* <button onClick={() => {this.downloadMe("ministrycert.png")}} className="downloadButton">Download</button> */}
                     <img className="certPanel" alt="Ministry Certification" src={require('../../assets/cards/ministrycert.png')} />
                 </div>
             )

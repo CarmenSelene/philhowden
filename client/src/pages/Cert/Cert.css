@@ -12,31 +12,31 @@ ul.cardUl {
 
 li.cardLi {
     display: inline-flex;
-    border: 3px;
-    border-color: rgba(24, 21, 21, 0.342);
-    border-style: inset;
-    background-color: rgb(224, 194, 194);
     cursor:pointer;
     border:none;
-    background:#0CF;
-    color:#FFF;
-    border-radius: 5px; 
     margin: 0px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 strong.certNavButton {
   border: none;
   color: black;
-  padding: 12px;
+  padding: 8px;
   text-decoration: none;
+  border-radius: 10px; 
   font-size: 16px;
   word-wrap: none;
+  background-color: rgb(147, 147, 173);
+  text-align: center;
 }
 
-li.cardLi:hover {
-  background-color: rgb(147, 147, 173);
+strong.certNavButton:hover {
+  background-color: rgba(199, 199, 209, 0.788);
+  padding: 5px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
 }
 
 .certPage {
@@ -56,14 +56,6 @@ li.cardLi:hover {
 }
 
 @media screen and (max-width: 800px) {
-  .certNav {
-    width: 100%;
-  }
-
-ul.cardUl {
-    display: flex;
-}
-
 li.cardLi {
     display: flex;
     border: 3px;
@@ -72,18 +64,9 @@ li.cardLi {
     background-color: rgb(224, 194, 194);
     cursor:pointer;
     border:none;
-    background:#0CF;
     color:#FFF;
     border-radius: 5px; 
 }
-
-strong.certNavButton {
-    border: none;
-    color: black;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 12px;
-  }
 
   .certPage {
     width: 100%;

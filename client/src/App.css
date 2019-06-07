@@ -1,9 +1,9 @@
 .App-header {
   background-image: url("./assets/textures/prism.png");
   background-color: #222;
-  min-height: 125px;
-  padding: 55px;
-  padding-bottom: 35px;
+  min-height: 150px;
+  padding: 80px;
+  padding-bottom: 20px;
   color: white;
 }
 
@@ -56,40 +56,6 @@
   position: relative;
 }
 
-.resumeblock {
-  display: block;
-  width: 80%;
-  margin: auto;
-  cursor: grab;
-}
-
-.resumeTitle { 
-  color: black;
-  display: block;
-  margin: 5px;
-  padding: 5px;
-  text-align: left;
-  word-wrap: none;
-  line-height: 35px;
-}
-
-.resumeTitle:hover { 
-  background-color: rgb(147, 147, 173);
-}
-
-.resumeTable {
-  display: block;
-  padding: 2px;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 16px;
-}
-
-.contactblock {
-  margin: 0px;
-  padding: 0px;
-}
-
 .addpadd {
   padding-right: 10px;
 }
@@ -131,8 +97,8 @@
 
 @media screen and (max-width: 800px) {
   .App-header {
-    padding: 15px;
-    padding-bottom: 40px;
+    padding: 25px;
+    padding-bottom: 2px;
   }
   
   .App-navbar {

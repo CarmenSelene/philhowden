@@ -1,5 +1,6 @@
 import React from "react";
 import { Animate } from "react-show";
+import "./Resume.css";
 
 class Resume extends React.Component {
     state = {

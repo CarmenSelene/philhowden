@@ -1,0 +1,29 @@
+.resumeblock {
+    display: block;
+    width: 80%;
+    margin: auto;
+    cursor: grab;
+  }
+  
+  .resumeTitle { 
+    color: black;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    word-wrap: none;
+    line-height: 35px;
+  }
+  
+  .resumeTitle:hover { 
+    background-color: rgb(147, 147, 173);
+  }
+  
+  .resumeTable {
+    display: block;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
