@@ -1,36 +1,58 @@
 body {
   margin: auto;
-  /* font-family: 'Vollkorn', sans-serif; */
-  /* font-family: 'Markazi Text', sans-serif; */
   font-family: 'Gilda Display', sans-serif;
   text-align: center;
   font-size: 24px;
   background-image: url("./assets/textures/scribble_light_@2X.png");
-  background-color: #fff;
+  background-color: #586556;
   height: fit-content;
+  cursor: pointer;
+  user-select: none;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   text-align: center;
+  display: inline-block;
 }
 
 li {
   display: inline-flex;
+  padding: 3px;
 }
 
 li a {
   text-decoration: none;
-  color: white;
-  padding: 15px;
+  color:#C4B481;
+  display: inline-flex;
+  padding: 6px;
+  font-size: 16px;
+  border-color: #857557;
+  border-style: solid;
+  border-radius: 12px; 
+  font-weight: 200;
 }
 
 li a:hover {
-  color: rgba(82, 179, 235, 0.589);
+  border-width: 2px;
+  border-color: #857557;
+  border-style: solid;
+  border-radius: 12px; 
+  color: black;
+  background-color: #586556;
+  font-weight: 700;
 }
 
 td {
   word-wrap: normal;
 }
+
+/* Main color palatte
+3D4140
+586556
+363029
+857557
+C4B481 */
+

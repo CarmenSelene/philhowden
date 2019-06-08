@@ -13,7 +13,7 @@ class App extends Component {
         <div className="App">
           {/* Header */}
           <div className="App-header">
-            <span className="title">Phil Howden</span>
+            <span className="title">Phillip Howden</span>
             <span className="subTitle">phillip.howden@gmail.com<br />
               647-880-7550<br />
               Working out of the Greater Toronto Area</span>
@@ -28,7 +28,7 @@ class App extends Component {
           </div>
           {/* Footer */}
           <div className="App-footer">
-            This will be the footer
+            Phillip Howden 2019
           </div>
         </div>
       </Router>

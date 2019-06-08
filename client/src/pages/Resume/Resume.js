@@ -50,14 +50,12 @@ class Resume extends React.Component {
                     start={{
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                     leave={{
                         // these styles will be applied when the component leaves
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                 >
                     {/* Certifications */}
                     <table>
@@ -111,14 +109,12 @@ class Resume extends React.Component {
                     start={{
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                     leave={{
                         // these styles will be applied when the component leaves
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                 >
                     {/* VTR Assistant */}
                     <table >
@@ -152,14 +148,12 @@ class Resume extends React.Component {
                     start={{
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                     leave={{
                         // these styles will be applied when the component leaves
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                 >
                     {/* Gaffer Work Experience */}
                     <table>
@@ -190,14 +184,12 @@ class Resume extends React.Component {
                     start={{
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                     leave={{
                         // these styles will be applied when the component leaves
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                 >
                     {/* Daily Electric Experience */}
                     <table>
@@ -243,14 +235,12 @@ class Resume extends React.Component {
                     start={{
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                     leave={{
                         // these styles will be applied when the component leaves
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                 >
                     {/* Daily Grip Experience */}
                     <table>
@@ -281,14 +271,12 @@ class Resume extends React.Component {
                     start={{
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                     leave={{
                         // these styles will be applied when the component leaves
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                 >
                     {/* Production Assistant Work Experience */}
                     <table>
@@ -763,14 +751,12 @@ class Resume extends React.Component {
                     start={{
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                     leave={{
                         // these styles will be applied when the component leaves
                         opacity: 0,
                         height: 0,
-                        background: "red"
-                    }}
+                        background: "#C4B481"                    }}
                 >
                     <table>
                         <tbody className="resumeTable">

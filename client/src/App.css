@@ -1,21 +1,23 @@
 .App-header {
   background-image: url("./assets/textures/prism.png");
-  background-color: #222;
-  min-height: 150px;
-  padding: 80px;
-  padding-bottom: 20px;
+  background-color: #363029;
+  min-height: 120px;
+  padding: 50px;
   color: white;
+  font-size: 34px;
 }
 
 .App-navbar {
   background-image: url("./assets/textures/prism.png");
-  background-color: #222;
+  background-color: #363029;
   margin: 0px;
   border-width: 2px 0px 0px 0px;
   border-color: red;
   border-style: dotted;
   position: sticky;
-  padding: 35px;
+  padding: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .title {
@@ -23,7 +25,7 @@
   display: flex;
   text-transform: uppercase;
   float: left;
-  width: 40%; 
+  width: 33%; 
   margin: auto;
 }
 
@@ -40,20 +42,20 @@
 
 .App-body {
   margin: 0px;
-  padding: 35px;
-  min-height: 400px;
+  padding: 0px;
   height: fit-content;
 }
 
 .App-footer {
   background-image: url("./assets/textures/prism.png");
-  background-color: #222;
+  background-color: #363029;
   height: auto;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
   color: white;
   position: relative;
+  text-transform: uppercase;
 }
 
 .addpadd {
@@ -75,19 +77,19 @@
   position: fixed;
   bottom: 40px;
   float: right;
-  right: 16.5%;
-  left: 79.25%;
-  max-width: 140px;
+  right: 29.5%;
+  left: 72.25%;
+  max-width: 110px;
   width: 100%;
   font-size: 12px;
   border-color: rgba(85, 85, 85, 0.2);
-  background-color: rgb(100,100,100);
+  background-color: #857557;
   padding: 5px;
   border-radius: 4px;
 }
 
 .scrollToTopButton:hover {
-  background-color: rgb(147, 147, 173);
+  background-color: #586556;
 }
 
 .wrapper {
@@ -95,27 +97,29 @@
   margin: 0px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .App-header {
-    padding: 25px;
-    padding-bottom: 2px;
-  }
-  
-  .App-navbar {
-    padding: 5px;
+    font-size: 18px;
+    padding: 20px;
+    padding-bottom: 0px;
+    min-height: 80px;
   }
   
   .title {
-    display: inline-flex;
+    display: flex;
+    margin: 0px;
   }
   
   .subTitle {
-    display: inline-flex;
-    text-align: right;
+    display: flex;
     margin: 0px;
   }
-
-  .resumeblock {
-    width: 95%;
-  }
 }
+
+/* Main color palatte
+3D4140
+586556
+363029
+857557
+C4B481 */
+

@@ -3,6 +3,7 @@
     width: 80%;
     margin: auto;
     cursor: grab;
+    padding: 30px;
   }
   
   .resumeTitle { 
@@ -16,7 +17,7 @@
   }
   
   .resumeTitle:hover { 
-    background-color: rgb(147, 147, 173);
+    background-color: #857557;
   }
   
   .resumeTable {

@@ -1,86 +1,54 @@
-.certNav {
-    width: 100%;
-    margin-top: -15px;
-    margin-bottom: 35px;
-    padding: 0px;
-  }
-
-ul.cardUl {
-    display: inline-flex;
-    padding: 0px;
-}
-
-li.cardLi {
-    display: inline-flex;
-    cursor:pointer;
-    border:none;
-    margin: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-strong.certNavButton {
-  border: none;
-  color: black;
-  padding: 8px;
-  text-decoration: none;
-  border-radius: 10px; 
-  font-size: 16px;
-  word-wrap: none;
-  background-color: rgb(147, 147, 173);
-  text-align: center;
-}
-
-strong.certNavButton:hover {
-  background-color: rgba(199, 199, 209, 0.788);
-  padding: 5px;
-  border-width: 3px;
-  border-color: black;
-  border-style: solid;
-}
-
 .certPage {
-  width: 100%;
   margin: 0px;
-  padding: 5px;
-  align-content: center;
-  border-radius: 25px;
+  padding: 0px;
+  display: block;
+}
+
+.certNav {
+  display: inline-flex;
+  margin: 0px;
+  padding: 8px;
+  background-image: url("../../assets/textures/prism.png");
+  border-width: 2px 0px 0px 0px;
+  border-color: red;
+  border-style: dotted;
+  font-size: 12px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .certPanel {
-  width: 80%;
+  width: 80%;;
   height: auto;
   margin: auto;
-  padding: 15px;
-  align-content: middle;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
 }
 
-@media screen and (max-width: 800px) {
-li.cardLi {
-    display: flex;
-    border: 3px;
-    border-color: rgba(24, 21, 21, 0.342);
-    border-style: inset;
-    background-color: rgb(224, 194, 194);
-    cursor:pointer;
-    border:none;
-    color:#FFF;
-    border-radius: 5px; 
+strong.certNavButton {
+  text-decoration: none;
+  color:#C4B481;
+  padding: 6px;
+  font-size: 16px;
+  border-color: #857557;
+  border-style: solid;
+  border-radius: 12px; 
+  font-weight: 200;
 }
 
-  .certPage {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    align-content: center;
-  }
-  
-  .certPanel {
-    width: 90%;
-    height: auto;
-    margin: 0px;
-    padding: 5px;
-    padding-top: 35px;
-    align-content: middle;
-  }
+strong.certNavButton:hover {
+  border-width: 1px;
+  border-color: #857557;
+  border-style: solid;
+  border-radius: 12px; 
+  color: black;
+  background-color: #586556;
+  font-weight: 800;
 }
+
+/* Main color palatte
+3D4140
+586556
+363029
+857557
+C4B481 */
