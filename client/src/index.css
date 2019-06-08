@@ -5,9 +5,6 @@ body {
   font-size: 24px;
   background-image: url("./assets/textures/scribble_light_@2X.png");
   background-color: #586556;
-  height: fit-content;
-  cursor: pointer;
-  user-select: none;
 }
 
 ul {
@@ -16,6 +13,8 @@ ul {
   padding: 5px;
   text-align: center;
   display: inline-block;
+  cursor: pointer;
+  user-select: none;
 }
 
 li {

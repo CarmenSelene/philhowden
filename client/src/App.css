@@ -8,7 +8,9 @@
 }
 
 .App-navbar {
-  background-image: url("./assets/textures/prism.png");
+  background-image: url("./assets/textures/tape-1458416.png");
+  background-size: contain;
+  background-blend-mode: lighten;
   background-color: #363029;
   margin: 0px;
   border-width: 2px 0px 0px 0px;
@@ -43,11 +45,13 @@
 .App-body {
   margin: 0px;
   padding: 0px;
-  height: fit-content;
+  min-height: 500px;
 }
 
 .App-footer {
-  background-image: url("./assets/textures/prism.png");
+  background-image: url("./assets/textures/tape-1458416.png");
+  background-size: contain;
+  background-blend-mode: lighten;
   background-color: #363029;
   height: auto;
   width: 100%;
