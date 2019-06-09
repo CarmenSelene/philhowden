@@ -33,6 +33,7 @@
     display: inline-flex;
     margin: 0px;
     padding: 8px;
+    margin-bottom: 25px;
     background-image: url("../../assets/textures/prism.png");
     border-width: 2px 0px 0px 0px;
     border-color: red;

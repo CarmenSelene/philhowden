@@ -25,6 +25,11 @@
   display: flex;
 }
 
+.certPanelMinus {
+  margin-top: inherit;
+  margin-top: -40px;
+}
+
 strong.certNavButton {
   text-decoration: none;
   color:#C4B481;

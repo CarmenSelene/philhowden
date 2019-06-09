@@ -51,7 +51,7 @@ export default class Cert extends Component {
                 <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
                     <img className="certPanel" alt="Crane Training" src={require('../../assets/cards/crane_training.jpg')} />
-                    <img className="certPanel" alt="Crane Training Back" src={require('../../assets/cards/crane_training_back.jpg')} />
+                    <img className="certPanel certPanelMinus" alt="Crane Training Back" src={require('../../assets/cards/crane_training_back.jpg')} />
                 </div>
             )
         } else if (this.state.whichCard === "three") {
@@ -59,7 +59,7 @@ export default class Cert extends Component {
                 <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
                     <img className="certPanel" alt="Fall Protection" src={require('../../assets/cards/fall_protection.jpg')} />
-                    <img className="certPanel" alt="Fall Protection Back" src={require('../../assets/cards/fall_protection_back.jpg')} />
+                    <img className="certPanel certPanelMinus" alt="Fall Protection Back" src={require('../../assets/cards/fall_protection_back.jpg')} />
                 </div>
             )
         } else if (this.state.whichCard === "four") {
@@ -67,7 +67,7 @@ export default class Cert extends Component {
                 <div className="certPage">
                     <NavCert giveFocus={this.giveFocus} />
                     <img className="certPanel" alt="Self Propelled" src={require('../../assets/cards/self_propelled_training.jpg')} />
-                    <img className="certPanel" alt="Self Propelled Back" src={require('../../assets/cards/self_propelled_training_back.jpg')} />
+                    <img className="certPanel certPanelMinus" alt="Self Propelled Back" src={require('../../assets/cards/self_propelled_training_back.jpg')} />
                 </div>
             )
         } else if (this.state.whichCard === "five") {
