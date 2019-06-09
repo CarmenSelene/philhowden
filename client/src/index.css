@@ -3,7 +3,9 @@ body {
   font-family: 'Gilda Display', sans-serif;
   text-align: center;
   font-size: 24px;
-  background-image: url("./assets/textures/scribble_light_@2X.png");
+  background-image: url("./assets/textures/tape-light.png");
+  background-size: auto;
+  background-position: fixed;
   background-color: #586556;
 }
 

@@ -4,6 +4,11 @@ import "./Contact.css";
 function Contact() {
     return (
         <div className="contactblock">
+        <nav className="contactNav" >
+                    <ul>
+                        <li><small>Contact Phillip</small></li>
+                    </ul>
+                </nav>
             <form id="contact" action="https://formspree.io/phillip.howden@gmail.com" method="post">
                 <input type="hidden" name="_subject" value="Website Contact Form" className="hideMe" />
                 <input type="hidden" name="_format" value="plain" className="hideMe" />
