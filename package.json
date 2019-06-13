@@ -24,6 +24,6 @@
     "if-env": "^1.0.4",
     "js-file-download": "^0.4.7",
     "react": "^16.8.2",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.1"
   }
 }

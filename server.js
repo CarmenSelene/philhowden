@@ -8,17 +8,16 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-// Download Routes
-app.get("/download/:", (req, res) => {
-  let queryFilter = req.params.filter;
-  const file = `${__dirname}/cards/` + queryFilter + `.jpg`;
-  res.download(file); // Set disposition and send it.
-});
-
 // Send every request to the React app
-
 app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+
+// Download Routes
+app.get("/download", (req, res) => {
+  res.download(path.join(__dirname, '/cards/one.jpg'), function (err) {
+    console.log("error" + err);
+  });
 });
 
 app.listen(PORT, function () {
